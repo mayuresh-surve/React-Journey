@@ -6,9 +6,21 @@ Welcome to my React learning journey! This repository documents my daily progres
 
 I will follow a comprehensive roadmap to master React, leveraging a mix of theoretical knowledge and practical examples. Each day, I'll focus on specific topics, gradually building my expertise.
 
-### Week 1: Introduction and Basics
 
-- **Day 1:** Introduction to React, setup, and key concepts.
+<table border="1">
+  <tr>
+    <th style="text-align: center;">Day</th>
+    <th style="text-align: center;">Topic</th>
+    <th style="text-align: center;">Blog Link</th>
+  </tr>
+  <tr>
+    <td>Day 1</td>
+    <td>Introduction to React, setup, and key concepts</td>
+    <td><a href="https://dev.to/mayureshsurve/react-learning-journey-day-1-ch5">Blog</a></td>
+  </tr>
+</table>
+
+<!-- - **Day 1:** Introduction to React, setup, and key concepts. -->
 <!-- - **Day 2:** JSX and rendering elements.
 - **Day 3:** Components and props.
 - **Day 4:** State and lifecycle.
