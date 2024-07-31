@@ -5,7 +5,7 @@ On Day 2 of my React Learning Journey, I focused on revising some crucial JavaSc
 ### Books Array
 To illustrate different concepts, I'll be using an array of book objects. This array contains information about various books, including their titles, authors, genres, publication dates, and reviews.
 
-```json
+```javascript
 const data = [
   {
     id: 1,
