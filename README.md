@@ -6,7 +6,6 @@ Welcome to my React learning journey! This repository documents my daily progres
 
 I will follow a comprehensive roadmap to master React, leveraging a mix of theoretical knowledge and practical examples. Each day, I'll focus on specific topics, gradually building my expertise.
 
-
 <table border="1">
   <tr>
     <th style="text-align: center;">Day</th>
@@ -22,6 +21,11 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
     <td>Day 2</td>
     <td>Essential JavaScript for React</td>
     <td><a href="https://dev.to/mayureshsurve/-react-learning-journey-day-2-1kbf">Blog</a></td>
+  </tr>
+  <tr>
+    <td>Day 3</td>
+    <td>JSX and Components</td>
+    <td><a href="https://dev.to/mayureshsurve/day-3-jsx-and-components-5doj">Blog</a></td>
   </tr>
   
 </table>
@@ -68,15 +72,15 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
 
 ## 🛠 How I Will Learn
 
-- **Courses:** I am following a course on [Udemy](https://www.udemy.com/share/108PTo3@tRltiGekPCEGR9LjDlhVZuZuskcGmkIWIps9Gk-5L3qdrb9u_Bw4FiRkeapw3VZr/) to guide my learning path.
-- **Documentation:** I will use the [React Documentation](https://react.dev/learn) for in-depth understanding.
-- **Practice:** Implementing concepts through mini-projects and exercises.
-- **Community:** Engaging with the React community on forums and GitHub.
+-   **Courses:** I am following a course on [Udemy](https://www.udemy.com/share/108PTo3@tRltiGekPCEGR9LjDlhVZuZuskcGmkIWIps9Gk-5L3qdrb9u_Bw4FiRkeapw3VZr/) to guide my learning path.
+-   **Documentation:** I will use the [React Documentation](https://react.dev/learn) for in-depth understanding.
+-   **Practice:** Implementing concepts through mini-projects and exercises.
+-   **Community:** Engaging with the React community on forums and GitHub.
 
 ## 📚 Resources for Further Learning
 
-- [React Documentation](https://react.dev/learn)
-- [React GitHub Repository](https://github.com/facebook/react)
+-   [React Documentation](https://react.dev/learn)
+-   [React GitHub Repository](https://github.com/facebook/react)
 
 ## 📈 Progress and Updates
 
