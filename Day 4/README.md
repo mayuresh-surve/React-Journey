@@ -212,6 +212,7 @@ return (
 
 import React from "react";
 import CounterFunction from "./CounterFunction";
+import CounterClass from "./CounterClass";
 
 function App() {
 	return (
