@@ -1,5 +1,7 @@
 # 🚀 React Learning Journey: Day 1 🚀
 
+## Set up the Environment
+
 Welcome to my React learning journey! This repository documents my daily progress as I dive into the React JavaScript framework. Below is a summary of what I learned on Day 1.
 
 ## 📘 What is React?

@@ -1,5 +1,7 @@
 # 🚀 React Learning Journey: Day 3 🚀
 
+## JSX and Components
+
 On Day 3 of my React Learning Journey, I focused on understanding the basics of JSX, the differences between JSX and HTML, and how to create and use both functional and class components in React. Here's a summary of what I learned:
 
 ### **1. Understanding JSX**

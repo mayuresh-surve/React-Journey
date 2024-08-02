@@ -1,5 +1,7 @@
 # 🚀 React Learning Journey: Day 2 🚀
 
+## Essential JavaScript for React
+
 On Day 2 of my React Learning Journey, I focused on revising some crucial JavaScript concepts that are essential for working with React. Here's a summary of what I learned:
 
 ### Books Array
