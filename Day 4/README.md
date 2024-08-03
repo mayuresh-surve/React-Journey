@@ -1,4 +1,4 @@
-# 🚀 React Learning Journey: Day 3 🚀
+# 🚀 React Learning Journey: Day 4 🚀
 
 ## Props and States
 
