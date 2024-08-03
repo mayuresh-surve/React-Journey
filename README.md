@@ -29,7 +29,7 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
   </tr>
   </tr>
   <tr>
-    <td>Day </td>
+    <td>Day 4</td>
     <td>Props and States</td>
     <td><a href="https://dev.to/mayureshsurve/day-4-props-and-states-5h86">Blog</a></td>
   </tr>
