@@ -29,9 +29,14 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
   </tr>
   </tr>
   <tr>
-    <td>Day </td>
+    <td>Day 4</td>
     <td>Props and States</td>
     <td><a href="https://dev.to/mayureshsurve/day-4-props-and-states-5h86">Blog</a></td>
+  </tr>
+  <tr>
+    <td>Day 5</td>
+    <td>List Rendering and Conditional Rendering</td>
+    <td><a href="https://dev.to/mayureshsurve/day-5-exploring-list-rendering-and-conditional-rendering-in-react-1g5i">Blog</a></td>
   </tr>
   
 </table>
