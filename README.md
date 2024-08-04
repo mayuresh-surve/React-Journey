@@ -39,7 +39,7 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
     <td><a href="https://dev.to/mayureshsurve/day-5-exploring-list-rendering-and-conditional-rendering-in-react-1g5i">Blog</a></td>
   </tr>
   <tr>
-    <td>Day 5</td>
+    <td>Day 6</td>
     <td>Pure Components and UI as a Tree</td>
     <td><a href="https://dev.to/mayureshsurve/day-6-pure-component-and-ui-as-a-tree-1f1b">Blog</a></td>
   </tr>
