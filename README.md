@@ -43,6 +43,11 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
     <td>Pure Components and UI as a Tree</td>
     <td><a href="https://dev.to/mayureshsurve/day-6-pure-component-and-ui-as-a-tree-1f1b">Blog</a></td>
   </tr>
+  <tr>
+    <td>Day 7</td>
+    <td>Pizza Restaurant Menu Project</td>
+    <td><a href="https://dev.to/mayureshsurve/day-7-pizza-restaurant-menu-project-41dp">Blog</a></td>
+  </tr>
   
 </table>
 

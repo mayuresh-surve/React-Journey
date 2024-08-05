@@ -1,55 +1,21 @@
 import "./App.css";
-
-const pizzaData = [
-	{
-		name: "Focaccia",
-		ingredients: "Bread with italian olive oil and rosemary",
-		price: 6,
-		photoName: "https://imgur.com/C3Ca4BS.png",
-		soldOut: false,
-	},
-	{
-		name: "Pizza Margherita",
-		ingredients: "Tomato and mozarella",
-		price: 10,
-		photoName: "https://imgur.com/lipmW8F.png",
-		soldOut: false,
-	},
-	{
-		name: "Pizza Spinaci",
-		ingredients: "Tomato, mozarella, spinach, and ricotta cheese",
-		price: 12,
-		photoName: "https://imgur.com/APdaPZR.png",
-		soldOut: false,
-	},
-	{
-		name: "Pizza Funghi",
-		ingredients: "Tomato, mozarella, mushrooms, and onion",
-		price: 12,
-		photoName: "https://imgur.com/dPpvWzM.png",
-		soldOut: false,
-	},
-	{
-		name: "Pizza Salamino",
-		ingredients: "Tomato, mozarella, and pepperoni",
-		price: 15,
-		photoName: "https://imgur.com/9dtZJNE.png",
-		soldOut: true,
-	},
-	{
-		name: "Pizza Prosciutto",
-		ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
-		price: 18,
-		photoName: "https://imgur.com/jii9M6S.png",
-	},
-];
+import pizzaData from "./Pizzas.js"
 
 function App() {
 	return (
-		<>
+		<div className="container">
+			<Header />
 			<Menu />
 			<Footer />
-		</>
+		</div>
+	);
+}
+
+function Header() {
+	return (
+		<header className="header">
+			<h1>Pizza by the bay</h1>
+		</header>
 	);
 }
 
@@ -57,8 +23,8 @@ function Menu() {
 	const pizzas = pizzaData;
 
 	return (
-		<>
-			<h1>Our Menu</h1>
+		<main className="menu">
+			<h2>Our Menu</h2>
 
 			{pizzas.length > 0 ? (
 				<ul className="pizzas">
@@ -71,22 +37,23 @@ function Menu() {
 					We're still working on our menu. Please come back later :?
 				</p>
 			)}
-		</>
+		</main>
 	);
 }
 
 function Pizza({ pizzaObj }) {
-    if(pizzaObj.soldOut) {
-        return null;
-    }
-
+	// if(pizzaObj.soldOut) {
+    //     return null;
+    // }
+	
 	return (
-		<li className="pizza">
+		<li className={`pizza ${pizzaObj.soldOut ? "sold-out" : ""}`}>
 			<img src={pizzaObj.photoName} alt={pizzaObj.name} />
 			<div>
 				<h3>{pizzaObj.name}</h3>
 				<p>{pizzaObj.ingredients}</p>
-				<span>{pizzaObj.price}</span>
+				{/* <span>{pizzaObj.price}</span> */}
+				<span>{pizzaObj.soldOut ? `${pizzaObj.price} SOLD OUT` : pizzaObj.price}</span>
 			</div>
 		</li>
 	);
@@ -94,14 +61,13 @@ function Pizza({ pizzaObj }) {
 
 function Footer() {
 	const hour = new Date().getHours();
-	const openHour = 13;
+	const openHour = 10;
 	const closeHour = 22;
 	const isOpen = hour >= openHour && hour <= closeHour;
-	console.log(isOpen);
 
-	if (!isOpen) {
-		return <h1>CLOSED</h1>;
-	}
+	// if (!isOpen) {
+	// 	return <h1>CLOSED</h1>;
+	// }
 
 	return (
 		<footer className="footer">
