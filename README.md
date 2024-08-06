@@ -48,6 +48,11 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
     <td>Pizza Restaurant Menu Project</td>
     <td><a href="https://dev.to/mayureshsurve/day-7-pizza-restaurant-menu-project-41dp">Blog</a></td>
   </tr>
+  <tr>
+    <td>Day 8</td>
+    <td>Preserving and Resetting State</td>
+    <td><a href="https://dev.to/mayureshsurve/day-8-preserving-and-resetting-state-4k4d">Blog</a></td>
+  </tr>
   
 </table>
 
