@@ -53,6 +53,11 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
     <td>Preserving and Resetting State</td>
     <td><a href="https://dev.to/mayureshsurve/day-8-preserving-and-resetting-state-4k4d">Blog</a></td>
   </tr>
+  <tr>
+    <td>Day 9</td>
+    <td>Dynamic Date Calculator</td>
+    <td><a href="https://dev.to/mayureshsurve/day-9-dynamic-date-calculator-3jg1">Blog</a></td>
+  </tr>
   
 </table>
 
