@@ -58,6 +58,10 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
     <td>Dynamic Date Calculator</td>
     <td><a href="https://dev.to/mayureshsurve/day-9-dynamic-date-calculator-3jg1">Blog</a></td>
   </tr>
+    <td>Day 10</td>
+    <td>Packing List App</td>
+    <td><a href="https://dev.to/mayureshsurve/day-10-packing-list-app-5a31">Blog</a></td>
+  </tr>
   
 </table>
 
