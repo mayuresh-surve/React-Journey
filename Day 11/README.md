@@ -145,9 +145,6 @@ function ShortSyntaxExample() {
 
 Use fragments whenever you need to group multiple sibling elements without adding extra DOM nodes. They are particularly useful when returning lists or mapping over an array to generate elements.
 
-#### Hands-On: Implementing Fragments in a Component Tree
-
-For hands-on practice, I refactored a component tree by replacing unnecessary wrapper elements with fragments, which streamlined the DOM structure and improved the maintainability of the code.
 
 ### Key Takeaways
 
