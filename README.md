@@ -67,6 +67,11 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
     <td>React Fragments and Composition vs Inheritance in React</td>
     <td><a href="https://dev.to/mayureshsurve/day-11-react-fragments-and-composition-vs-inheritance-in-react-50d1">Blog</a></td>
   </tr>
+  </tr>
+    <td>Day 12</td>
+    <td>Enhancing state management using useReducer</td>
+    <td><a href="https://dev.to/mayureshsurve/day-12-enhancing-state-management-using-usereducer-in-react-alp">Blog</a></td>
+  </tr>
   
 </table>
 
