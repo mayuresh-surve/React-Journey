@@ -72,6 +72,11 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
     <td>Enhancing state management using useReducer</td>
     <td><a href="https://dev.to/mayureshsurve/day-12-enhancing-state-management-using-usereducer-in-react-alp">Blog</a></td>
   </tr>
+  </tr>
+    <td>Day 13</td>
+    <td>Context API</td>
+    <td><a href="https://dev.to/mayureshsurve/day-13-context-api-in-react-12kg">Blog</a></td>
+  </tr>
   
 </table>
 
