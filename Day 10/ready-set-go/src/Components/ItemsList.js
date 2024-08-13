@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import Item from "./Items";
+import { ItemsContext, ItemsDispatchContext } from "../itemsContext";
 
-function ItemsList({ items, onDeleteItem, onToggleItem, OnClearList }) {
+function ItemsList() {
 	const [sortBy, setSortBy] = useState("input");
+	const items = useContext(ItemsContext);
+	const dispatch = useContext(ItemsDispatchContext);
 
 	let sortedList;
 
@@ -17,16 +20,19 @@ function ItemsList({ items, onDeleteItem, onToggleItem, OnClearList }) {
 		sortedList = items.slice();
 	}
 
+	function onClearList() {
+		const confirm = window.confirm(
+			"Are you sure you want to clear the list?"
+		);
+
+		if (confirm) dispatch({ type: "clear_items" });
+	}
+
 	return (
 		<div className="list">
 			<ul>
 				{sortedList.map((item) => (
-					<Item
-						item={item}
-						onDeleteItem={onDeleteItem}
-						onToggleItem={onToggleItem}
-						key={item.id}
-					/>
+					<Item item={item} key={item.id} />
 				))}
 			</ul>
 			<div className="actions">
@@ -38,7 +44,7 @@ function ItemsList({ items, onDeleteItem, onToggleItem, OnClearList }) {
 					<option value="status">SORT BY PACKED STATUS</option>
 					<option value="description">SORT BY ITEM NAME</option>
 				</select>
-				<button onClick={OnClearList}>clear list</button>
+				<button onClick={onClearList}>clear list</button>
 			</div>
 		</div>
 	);

@@ -1,4 +1,9 @@
-function Footer({ items }) {
+import { useContext } from "react";
+import { ItemsContext } from "../itemsContext";
+
+function Footer() {
+	const items = useContext(ItemsContext);
+
 	const totalItems = items.length;
 	const packedItems = items.filter((item) => item.packed).length;
 	const percentage =

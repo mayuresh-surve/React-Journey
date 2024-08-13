@@ -77,6 +77,11 @@ I will follow a comprehensive roadmap to master React, leveraging a mix of theor
     <td>Context API</td>
     <td><a href="https://dev.to/mayureshsurve/day-13-context-api-in-react-12kg">Blog</a></td>
   </tr>
+  </tr>
+    <td>Day 14</td>
+    <td>Scaling Up With useReducer and Context API</td>
+    <td><a href="https://dev.to/mayureshsurve/day-13-scaling-up-with-usereducer-and-context-api-4lk9">Blog</a></td>
+  </tr>
   
 </table>
 

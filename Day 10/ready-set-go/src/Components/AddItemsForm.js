@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { ItemsDispatchContext } from "../itemsContext";
 
-function AddItemForm({ onAddItem }) {
+function AddItemForm() {
 	const [quantity, setQuantity] = useState(1);
 	const [name, setName] = useState("");
+
+	const dispatch = useContext(ItemsDispatchContext);
 
 	function onFormSubmit(e) {
 		e.preventDefault();
@@ -14,7 +17,8 @@ function AddItemForm({ onAddItem }) {
 			packed: false,
 		};
 
-		onAddItem(item);
+		// onAddItem(item);
+		dispatch({ type: "add_item", item });
 
 		setQuantity(1);
 		setName("");
