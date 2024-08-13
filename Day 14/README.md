@@ -91,25 +91,24 @@ Here’s what I changed in my application:
     //ItemsContext.js
     import { createContext } from "react";
 
-    export const ItemsContext = createContext(null)
-    export const ItemsDispatchContext = createContext(null)
-
+    export const ItemsContext = createContext(null);
+    export const ItemsDispatchContext = createContext(null);
 
     //App.js
     import { ItemsContext, ItemsDispatchContext } from "./itemsContext";
 
     function App() {
-        const [items, dispatch] = useReducer(itemsReducer, []);
+    	const [items, dispatch] = useReducer(itemsReducer, []);
 
-        return (
-            <ItemsDispatchContext.Provider value={dispatch}>
-                <AddItemForm />
-                <ItemsContext.Provider value={items}>
-                    <ItemsList />
-                    <Footer />
-                </ItemsContext.Provider>
-            </ItemsDispatchContext.Provider>
-        );
+    	return (
+    		<ItemsDispatchContext.Provider value={dispatch}>
+    			<AddItemForm />
+    			<ItemsContext.Provider value={items}>
+    				<ItemsList />
+    				<Footer />
+    			</ItemsContext.Provider>
+    		</ItemsDispatchContext.Provider>
+    	);
     }
     ```
 
@@ -120,8 +119,8 @@ Here’s what I changed in my application:
     import { ItemsDispatchContext } from "../itemsContext";
 
     function AddItemForm() {
-        const dispatch = useContext(ItemsDispatchContext);
-        // Dispatch actions directly
+    	const dispatch = useContext(ItemsDispatchContext);
+    	// Dispatch actions directly
     }
     ```
 
@@ -151,7 +150,3 @@ Here’s what I changed in my application:
 Refactoring my React application to use `useReducer` and Context has been a significant step forward. This approach not only made the code cleaner and more maintainable but also set the stage for scaling up the application with more complex state management needs.
 
 I’m excited to continue this journey and explore more ways to improve my React applications. Stay tuned for more updates as I dive deeper into advanced React concepts!
-
----
-
-Feel free to check out the [GitHub repository](https://github.com/mayuresh-surve/React-Journey/tree/main/Day%201) for the latest code and examples from my learning journey.

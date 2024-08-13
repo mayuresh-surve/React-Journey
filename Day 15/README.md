@@ -137,3 +137,5 @@ Each action in the reducer is responsible for updating a specific part of the st
 This project, though small, was a valuable exercise in reinforcing the concepts I've learned. By focusing on pure components, leveraging the `children` prop, and efficiently managing state with the Context API and a reducer, I was able to create a clean and maintainable React application. As I continue my React learning journey, these foundational skills will undoubtedly play a crucial role in building more complex and scalable applications.
 
 Looking forward to the next challenge!
+
+Stay tuned for more updates, and feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/mayuresh-surve/).
